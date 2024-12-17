@@ -36,8 +36,11 @@ class ComplexNumber:
     def __repr__(self):
         return f"hodnota komplexniho cisla  je  {self.real_num} + i{self.imaginary_num}"
 
+    def __str__(self):
+        return f"{self.real_num} + i{self.imaginary_num}"
 
 
 cislo1 = ComplexNumber(5,6)
 
 print(cislo1)
+print([cislo1])
