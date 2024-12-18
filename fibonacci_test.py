@@ -1,5 +1,5 @@
 import pytest
-from fibonaci import *
+from fibonacci import *
 
 @pytest.mark.parametrize("number,result", [(5,3),(16,610),(-5,None)])
 def test_fibonacci(number,result):
